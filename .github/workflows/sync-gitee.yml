@@ -11,7 +11,7 @@ jobs:
     - name: Sync to Gitee
       uses: wearerequired/git-mirror-action@master
       env:
-          # 注意在 Settings->Secrets 配置 GITEE_RSA_PRIVATE_KEY
+          # 注意在 Settings->Secrets 配置 GITEE_RSA_PRIVATE_KEY 这个存私钥不带.pub那个文件里面的 gitee上 存储公钥 带.pub那个文件里面的
           SSH_PRIVATE_KEY: ${{ secrets.GITEE_RSA_PRIVATE_KEY }}
       with:
           # 注意替换为你的 GitHub 源仓库地址
