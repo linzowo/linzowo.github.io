@@ -1,4 +1,4 @@
-name: Build and Deploy
+name: A TO A:GH_PAGES
 on: [push]
 jobs:
   build-and-deploy:
@@ -7,11 +7,11 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
 
-    - name: vuepress-deploy
+    - name: Build and Deploy
       uses: jenkey2011/vuepress-deploy@master
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        TARGET_REPO: username/repo
-        TARGET_BRANCH: deploy
+        TARGET_REPO: jenkey2011/vuepress-deploy-demo
+        TARGET_BRANCH: gh_pages
         BUILD_SCRIPT: yarn && yarn build
-        BUILD_DIR: docs/.vuepress/dist/
+        BUILD_DIR: blog/.vuepress/dist/
