@@ -94,6 +94,8 @@ github-[在线demo](https://linzowo.github.io/h5/elm-uniapp/)
 
 #### 文件地址列表
 
+[已封装的object对象](https://github.com/linzowo/vue-elm/blob/master/common/http/service.js)
+
 | 接口名称 | 地址 |
 | ---- | ---- |
 |店铺主页测试数据      |test_data_store_index_data.json      |
@@ -124,7 +126,6 @@ github-[在线demo](https://linzowo.github.io/h5/elm-uniapp/)
 |可选备注选项数据      |remark_data.json      |
 |订单支付页数据 |order_pay_data.json |
 
-[已封装的object对象](https://github.com/linzowo/vue-elm/blob/master/common/http/service.js)
 
 
 
