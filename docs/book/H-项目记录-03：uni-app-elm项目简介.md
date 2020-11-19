@@ -10,7 +10,6 @@ excerpt: 采用uniapp实现的饿了么应用，如果你感兴趣想要尝试�
 ---
 
 
-
 <img src="https://img.shields.io/badge/build-linzowo-brightgreen" alt="linzowo">
 
 <img alt="APM badge" src="https://img.shields.io/badge/license-MIT-green">
@@ -124,7 +123,7 @@ github-[在线demo](https://linzowo.github.io/h5/elm-uniapp/)
 
 [点击此查看项目设计图](https://app.mockplus.cn/team/invitation/F1lI55_TnG)
 
-
+---
 
 ## TODO
 
@@ -139,6 +138,7 @@ github-[在线demo](https://linzowo.github.io/h5/elm-uniapp/)
 - [ ] app支持
 
   
+---
 
 ## 感谢
 
