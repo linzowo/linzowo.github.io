@@ -74,6 +74,14 @@ github-[在线demo](https://linzowo.github.io/h5/elm-uniapp/)
 
 ## 我将提供的资源
 
+
+
+### 项目设计稿
+
+[点击此查看项目设计图](https://app.mockplus.cn/team/invitation/F1lI55_TnG)
+
+
+
 ### 静态数据接口
 
 #### baseURL
@@ -119,9 +127,6 @@ github-[在线demo](https://linzowo.github.io/h5/elm-uniapp/)
 [已封装的object对象](https://github.com/linzowo/vue-elm/blob/master/common/http/service.js)
 
 
-### 项目设计稿
-
-[点击此查看项目设计图](https://app.mockplus.cn/team/invitation/F1lI55_TnG)
 
 ---
 
