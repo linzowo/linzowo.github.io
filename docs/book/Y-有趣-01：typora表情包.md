@@ -10,10 +10,6 @@ photos:
 excerpt: markdown表情包大全，还在等什么在你的文档中加入表情包吧
 ---
 
-# Y-有趣-01：typora表情包
-
-
-
 # People
 
 | 😄 `:smile:`                        | 😆 `:laughing:`                     |                        |
