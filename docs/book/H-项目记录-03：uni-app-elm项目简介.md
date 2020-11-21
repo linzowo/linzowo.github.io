@@ -9,15 +9,12 @@ tags:
 excerpt: 采用uniapp实现的饿了么应用，如果你感兴趣想要尝试一下，那就来看看吧
 ---
 
-
 <img src="https://img.shields.io/badge/build-linzowo-brightgreen" alt="linzowo">
 
 <img alt="APM badge" src="https://img.shields.io/badge/license-MIT-green">
 
 ## 项目简介
 这是一个前端练习项目，灵感来源于[vue2-elm](https://github.com/bailicangdu/vue2-elm)，如果你是一个前端学习者，想要完成一个相对复杂的项目来锻炼自己，那么不妨尝试一下这个项目。我将为你提供较为完整的设计图纸和一些必要的静态数据源。
-
-
 
 `注意：因为gitee无法进行跨域访问，所以静态数据挂载在github上，国内请求速度可能较为缓慢。（页面加载速度会有影响）。但是第一次加载完成后会将数据缓存到本地，后续访问速度会有提升。`
 
@@ -79,10 +76,10 @@ github-[在线demo](https://linzowo.github.io/h5/elm-uniapp/)
 ## 我将提供的资源
 
 
-
 ### 项目设计稿
 
-[点击此查看项目设计图](https://app.mockplus.cn/team/invitation/F1lI55_TnG)
+[项目设计图](https://app.mockplus.cn/team/invitation/F1lI55_TnG)
+
 
 
 
@@ -97,8 +94,6 @@ github-[在线demo](https://linzowo.github.io/h5/elm-uniapp/)
 `baseURL ` + `文件地址（见下列表）`
 
 #### 文件地址列表
-
-[已封装的object对象](https://github.com/linzowo/vue-elm/blob/master/common/http/service.js)
 
 | 接口名称 | 地址 |
 | ---- | ---- |
@@ -130,8 +125,7 @@ github-[在线demo](https://linzowo.github.io/h5/elm-uniapp/)
 |可选备注选项数据      |remark_data.json      |
 |订单支付页数据 |order_pay_data.json |
 
-
-
+[已封装的object对象](https://github.com/linzowo/vue-elm/blob/master/common/http/service.js)
 
 ---
 
@@ -139,13 +133,13 @@ github-[在线demo](https://linzowo.github.io/h5/elm-uniapp/)
 
 - [x] H5支持
 
-- [ ] 微信小程序支持
+- [x] 微信小程序支持
 
 - [ ] 支付宝小程序支持
 
 - [ ] 头条小程序支持
 
-- [ ] app支持
+- [x] app支持
 
   
 ---
