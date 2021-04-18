@@ -1,0 +1,44 @@
+{
+    "brand_top": null,
+    "hongbao": null,
+    "inside": {
+        "0": {
+            "attached_food_amount": null,
+            "filter": {
+                "multi": [],
+                "single": []
+            },
+            "highlights": [
+                "s"
+            ],
+            "multi_filter": null,
+            "price_filter": [],
+            "rank_id": null,
+            "restaurant_with_foods": [],
+            "rewrite_word": null,
+            "schema": null,
+            "search_type": 0,
+            "tags": []
+        },
+        "1": {
+            "attached_food_amount": null,
+            "filter": null,
+            "highlights": [],
+            "multi_filter": null,
+            "price_filter": [],
+            "rank_id": null,
+            "restaurant_with_foods": [],
+            "rewrite_word": null,
+            "schema": null,
+            "search_type": 1,
+            "tags": []
+        }
+    },
+    "outside": {
+        "count": 0,
+        "restaurants": [],
+        "tcs_link": ""
+    },
+    "popup_link": null,
+    "target_link": null
+}

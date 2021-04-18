@@ -1,0 +1,481 @@
+{
+    "prizes": [
+        {
+            "bonus": 0,
+            "coupons": [
+                {
+                    "activity_id": 461327875,
+                    "activity_type": 406,
+                    "applicable_type": 1,
+                    "chain_id": 0,
+                    "detail_json": "",
+                    "name": "龚眼镜冷冻批发部(成洛路分店)",
+                    "reduce_amount": 6,
+                    "status": 0,
+                    "sum_condition": 0
+                }
+            ],
+            "is_only_today": false,
+            "restaurant": {
+                "description": "满50元减2元，满100元减4元",
+                "id": "E12487595706925277062",
+                "image_path": "2a2d2f87f1f4c4c8ec70400f57c49f85jpeg",
+                "image_url": "http://fuss10.elemecdn.com/2/a2/d2f87f1f4c4c8ec70400f57c49f85jpeg.jpeg",
+                "name": "龚眼镜冷冻批发部(成洛路分店)",
+                "rating": 5,
+                "recent_order_num": 7,
+                "scheme": "https://h5.ele.me/shop/#id=E12487595706925277062?o2o_extra_param=%7B%22rank_id%22%3A%2265bbc492317045ea91222d5f9e46f4e9%22%7D",
+                "type": 0
+            }
+        },
+        {
+            "bonus": 0,
+            "coupons": [
+                {
+                    "activity_id": 241228153,
+                    "activity_type": 406,
+                    "applicable_type": 1,
+                    "chain_id": 0,
+                    "detail_json": "",
+                    "name": "可口蛋糕",
+                    "reduce_amount": 6,
+                    "status": 0,
+                    "sum_condition": 0
+                }
+            ],
+            "is_only_today": false,
+            "restaurant": {
+                "description": "满20元减1元，满50元减3元，满78元减4元，满138元减5元，满168元减6元",
+                "id": "E1356049044659129280",
+                "image_path": "22acb12ca312fc824cb16f4a0669fc3ejpeg",
+                "image_url": "http://fuss10.elemecdn.com/2/2a/cb12ca312fc824cb16f4a0669fc3ejpeg.jpeg",
+                "name": "可口蛋糕",
+                "rating": 3,
+                "recent_order_num": 43,
+                "scheme": "https://h5.ele.me/shop/#id=E1356049044659129280?o2o_extra_param=%7B%22rank_id%22%3A%2265bbc492317045ea91222d5f9e46f4e9%22%7D",
+                "type": 0
+            }
+        },
+        {
+            "bonus": 0,
+            "coupons": [
+                {
+                    "activity_id": 493612147,
+                    "activity_type": 406,
+                    "applicable_type": 1,
+                    "chain_id": 0,
+                    "detail_json": "",
+                    "name": "CUNS CAKE村上千层蛋糕",
+                    "reduce_amount": 8,
+                    "status": 0,
+                    "sum_condition": 0
+                }
+            ],
+            "is_only_today": false,
+            "restaurant": {
+                "description": "满40元减23元，满80元减28元，满150元减33元，满200元减43元",
+                "id": "E7760966557096782139",
+                "image_path": "e0941b70f0b8d91aed7a41a79c5cdfadJPEG",
+                "image_url": "http://fuss10.elemecdn.com/e/09/41b70f0b8d91aed7a41a79c5cdfadJPEG.JPEG",
+                "name": "CUNS CAKE村上千层蛋糕",
+                "rating": 4.8,
+                "recent_order_num": 1157,
+                "scheme": "https://h5.ele.me/shop/#id=E7760966557096782139?o2o_extra_param=%7B%22rank_id%22%3A%2265bbc492317045ea91222d5f9e46f4e9%22%7D",
+                "type": 0
+            }
+        },
+        {
+            "bonus": 0,
+            "coupons": [
+                {
+                    "activity_id": 467139267,
+                    "activity_type": 406,
+                    "applicable_type": 2,
+                    "chain_id": 93116065,
+                    "detail_json": "{\"description\":\"限甜蜜时光（武汉）连锁商家券使用\"}",
+                    "name": "甜蜜时光（武汉）连锁店券",
+                    "reduce_amount": 8,
+                    "status": 0,
+                    "sum_condition": 0
+                }
+            ],
+            "is_only_today": false,
+            "restaurant": {
+                "description": "满58元减10元，满128元减12元，满248元减24元，满458元减48元",
+                "id": "E12828603466532904035",
+                "image_path": "bead8d97d6c34fbd9541d538c763f40cpng",
+                "image_url": "http://fuss10.elemecdn.com/b/ea/d8d97d6c34fbd9541d538c763f40cpng.png",
+                "name": "甜蜜时光蛋糕店(红光镇鲜花店)",
+                "rating": 5,
+                "recent_order_num": 16,
+                "scheme": "https://h5.ele.me/shop/#id=E12828603466532904035?o2o_extra_param=%7B%22rank_id%22%3A%2265bbc492317045ea91222d5f9e46f4e9%22%7D",
+                "type": 0
+            }
+        },
+        {
+            "bonus": 0,
+            "coupons": [
+                {
+                    "activity_id": 437227923,
+                    "activity_type": 406,
+                    "applicable_type": 2,
+                    "chain_id": 93290526,
+                    "detail_json": "{\"description\":\"限菲兹蜜（武汉）连锁商家券使用\"}",
+                    "name": "菲兹蜜（武汉）连锁店券",
+                    "reduce_amount": 8,
+                    "status": 0,
+                    "sum_condition": 0
+                }
+            ],
+            "is_only_today": false,
+            "restaurant": {
+                "description": "满28元减5元，满58元减10元，满288元减15元，满388元减20元，满488元减25元",
+                "id": "E6810530886134452668",
+                "image_path": "96cd1323ce504a3a48b7173dd27cfaa5png",
+                "image_url": "http://fuss10.elemecdn.com/9/6c/d1323ce504a3a48b7173dd27cfaa5png.png",
+                "name": "菲兹蜜蛋糕烘焙(成都店)",
+                "rating": 5,
+                "recent_order_num": 15,
+                "scheme": "https://h5.ele.me/shop/#id=E6810530886134452668?o2o_extra_param=%7B%22rank_id%22%3A%2265bbc492317045ea91222d5f9e46f4e9%22%7D",
+                "type": 0
+            }
+        },
+        {
+            "bonus": 0,
+            "coupons": [
+                {
+                    "activity_id": 481846659,
+                    "activity_type": 406,
+                    "applicable_type": 1,
+                    "chain_id": 0,
+                    "detail_json": "",
+                    "name": "天使之心蛋糕",
+                    "reduce_amount": 6,
+                    "status": 0,
+                    "sum_condition": 0
+                }
+            ],
+            "is_only_today": false,
+            "restaurant": {
+                "description": "满100元减3元，满200元减6元，满300元减9元",
+                "id": "E17495766251675437996",
+                "image_path": "516ce606db9fecc49ec4d21cd68a9581JPEG",
+                "image_url": "http://fuss10.elemecdn.com/5/16/ce606db9fecc49ec4d21cd68a9581JPEG.JPEG",
+                "name": "天使之心蛋糕",
+                "rating": 4.6,
+                "recent_order_num": 25,
+                "scheme": "https://h5.ele.me/shop/#id=E17495766251675437996?o2o_extra_param=%7B%22rank_id%22%3A%2265bbc492317045ea91222d5f9e46f4e9%22%7D",
+                "type": 0
+            }
+        },
+        {
+            "bonus": 0,
+            "coupons": [
+                {
+                    "activity_id": 497218395,
+                    "activity_type": 406,
+                    "applicable_type": 1,
+                    "chain_id": 0,
+                    "detail_json": "",
+                    "name": "考拉快跑生日蛋糕(牡丹街店)",
+                    "reduce_amount": 8,
+                    "status": 0,
+                    "sum_condition": 0
+                }
+            ],
+            "is_only_today": false,
+            "restaurant": {
+                "description": "满90元减3元，满180元减6元",
+                "id": "E7002327450996715824",
+                "image_path": "3cedb21eb5ef9544b3a6c6e40935d455png",
+                "image_url": "http://fuss10.elemecdn.com/3/ce/db21eb5ef9544b3a6c6e40935d455png.png",
+                "name": "考拉快跑生日蛋糕(牡丹街店)",
+                "rating": 4.2,
+                "recent_order_num": 45,
+                "scheme": "https://h5.ele.me/shop/#id=E7002327450996715824?o2o_extra_param=%7B%22rank_id%22%3A%2265bbc492317045ea91222d5f9e46f4e9%22%7D",
+                "type": 0
+            }
+        },
+        {
+            "bonus": 0,
+            "coupons": [
+                {
+                    "activity_id": 493559307,
+                    "activity_type": 406,
+                    "applicable_type": 1,
+                    "chain_id": 0,
+                    "detail_json": "",
+                    "name": "青年火锅店(十陵直营店)",
+                    "reduce_amount": 7,
+                    "status": 0,
+                    "sum_condition": 0
+                }
+            ],
+            "is_only_today": false,
+            "restaurant": {
+                "description": "满99元减5元，满199元减20元，满299元减25元",
+                "id": "E12367337844503621213",
+                "image_path": "262797a2ca454f834549391f4e86a4f0jpeg",
+                "image_url": "http://fuss10.elemecdn.com/2/62/797a2ca454f834549391f4e86a4f0jpeg.jpeg",
+                "name": "青年火锅店(十陵直营店)",
+                "rating": 3.3,
+                "recent_order_num": 23,
+                "scheme": "https://h5.ele.me/shop/#id=E12367337844503621213?o2o_extra_param=%7B%22rank_id%22%3A%2265bbc492317045ea91222d5f9e46f4e9%22%7D",
+                "type": 0
+            }
+        },
+        {
+            "bonus": 0,
+            "coupons": [
+                {
+                    "activity_id": 478828235,
+                    "activity_type": 406,
+                    "applicable_type": 1,
+                    "chain_id": 0,
+                    "detail_json": "",
+                    "name": "花葵cake chief bake蛋糕",
+                    "reduce_amount": 6,
+                    "status": 0,
+                    "sum_condition": 0
+                }
+            ],
+            "is_only_today": false,
+            "restaurant": {
+                "description": "满3元减2元，满100元减5元，满200元减10元，满300元减20元",
+                "id": "E7192138434094257690",
+                "image_path": "f3ab5e416b3fe6f5410a07cdab01efe8JPEG",
+                "image_url": "http://fuss10.elemecdn.com/f/3a/b5e416b3fe6f5410a07cdab01efe8JPEG.JPEG",
+                "name": "花葵cake chief bake蛋糕",
+                "rating": 5,
+                "recent_order_num": 39,
+                "scheme": "https://h5.ele.me/shop/#id=E7192138434094257690?o2o_extra_param=%7B%22rank_id%22%3A%2265bbc492317045ea91222d5f9e46f4e9%22%7D",
+                "type": 0
+            }
+        },
+        {
+            "bonus": 0,
+            "coupons": [
+                {
+                    "activity_id": 426747563,
+                    "activity_type": 406,
+                    "applicable_type": 2,
+                    "chain_id": 99874913,
+                    "detail_json": "{\"description\":\"限心语蛋糕（镇江）连锁商家券使用\"}",
+                    "name": "心语蛋糕（镇江）连锁店券",
+                    "reduce_amount": 9,
+                    "status": 0,
+                    "sum_condition": 0
+                }
+            ],
+            "is_only_today": false,
+            "restaurant": {
+                "description": "满15元减5元，满50元减10元，满188元减20元，满288元减30元，满388元减50元",
+                "id": "E1907993658459121127",
+                "image_path": "3318af2c4ec841e3e74307376386fc4apng",
+                "image_url": "http://fuss10.elemecdn.com/3/31/8af2c4ec841e3e74307376386fc4apng.png",
+                "name": "心语蛋糕(玛利亚店)",
+                "rating": 4.9,
+                "recent_order_num": 38,
+                "scheme": "https://h5.ele.me/shop/#id=E1907993658459121127?o2o_extra_param=%7B%22rank_id%22%3A%2265bbc492317045ea91222d5f9e46f4e9%22%7D",
+                "type": 0
+            }
+        },
+        {
+            "bonus": 0,
+            "coupons": [
+                {
+                    "activity_id": 488859195,
+                    "activity_type": 406,
+                    "applicable_type": 2,
+                    "chain_id": 96191427,
+                    "detail_json": "{\"description\":\"限KAMANNI卡曼妮（石家庄）连锁商家券使用\"}",
+                    "name": "KAMANNI卡曼妮（石家庄）连锁店券",
+                    "reduce_amount": 8,
+                    "status": 0,
+                    "sum_condition": 0
+                }
+            ],
+            "is_only_today": false,
+            "restaurant": {
+                "description": "满50元减5元，满80元减8元，满100元减10元，满200元减20元，满300元减30元",
+                "id": "E9429611391228360629",
+                "image_path": "00fe0f34f5a3d25c2269745fd9a09197png",
+                "image_url": "http://fuss10.elemecdn.com/0/0f/e0f34f5a3d25c2269745fd9a09197png.png",
+                "name": "KAMANNI卡曼妮(成都店)",
+                "rating": 5,
+                "recent_order_num": 11,
+                "scheme": "https://h5.ele.me/shop/#id=E9429611391228360629?o2o_extra_param=%7B%22rank_id%22%3A%2265bbc492317045ea91222d5f9e46f4e9%22%7D",
+                "type": 0
+            }
+        },
+        {
+            "bonus": 0,
+            "coupons": [
+                {
+                    "activity_id": 476681771,
+                    "activity_type": 406,
+                    "applicable_type": 2,
+                    "chain_id": 90519449,
+                    "detail_json": "{\"description\":\"限咔滋韵蛋糕（重庆）连锁商家券使用\"}",
+                    "name": "咔滋韵蛋糕（重庆）连锁店券",
+                    "reduce_amount": 8,
+                    "status": 0,
+                    "sum_condition": 0
+                }
+            ],
+            "is_only_today": false,
+            "restaurant": {
+                "description": "满5元减5元，满100元减10元，满200元减20元，满300元减30元",
+                "id": "E2976363835894298410",
+                "image_path": "fae9579a0af39fc47bcd12b03389d1cbpng",
+                "image_url": "http://fuss10.elemecdn.com/f/ae/9579a0af39fc47bcd12b03389d1cbpng.png",
+                "name": "咔滋韵蛋糕(成华店)",
+                "rating": 4.8,
+                "recent_order_num": 9,
+                "scheme": "https://h5.ele.me/shop/#id=E2976363835894298410?o2o_extra_param=%7B%22rank_id%22%3A%2265bbc492317045ea91222d5f9e46f4e9%22%7D",
+                "type": 0
+            }
+        },
+        {
+            "bonus": 0,
+            "coupons": [
+                {
+                    "activity_id": 230814498,
+                    "activity_type": 406,
+                    "applicable_type": 1,
+                    "chain_id": 0,
+                    "detail_json": "",
+                    "name": "老字号老马资格羊肉串",
+                    "reduce_amount": 8,
+                    "status": 0,
+                    "sum_condition": 0
+                }
+            ],
+            "is_only_today": false,
+            "restaurant": {
+                "description": "满39元减2元，满69元减8元，满98元减10元，满188元减18元",
+                "id": "E12652999843787614363",
+                "image_path": "50e1dc21ace82c1b98d0450044f9cf4fjpeg",
+                "image_url": "http://fuss10.elemecdn.com/5/0e/1dc21ace82c1b98d0450044f9cf4fjpeg.jpeg",
+                "name": "老字号老马资格羊肉串",
+                "rating": 5,
+                "recent_order_num": 198,
+                "scheme": "https://h5.ele.me/shop/#id=E12652999843787614363?o2o_extra_param=%7B%22rank_id%22%3A%2265bbc492317045ea91222d5f9e46f4e9%22%7D",
+                "type": 0
+            }
+        },
+        {
+            "bonus": 0,
+            "coupons": [
+                {
+                    "activity_id": 483879195,
+                    "activity_type": 406,
+                    "applicable_type": 1,
+                    "chain_id": 0,
+                    "detail_json": "",
+                    "name": "鲜之源（小龙虾·海鲜·大闸蟹·干锅）",
+                    "reduce_amount": 7,
+                    "status": 0,
+                    "sum_condition": 0
+                }
+            ],
+            "is_only_today": false,
+            "restaurant": {
+                "description": "满30元减20元，满65元减33元，满135元减68元，满288元减145元",
+                "id": "E8036164714008853721",
+                "image_path": "b59ebbc4d9b8acab998b30d53000f83aJPEG",
+                "image_url": "http://fuss10.elemecdn.com/b/59/ebbc4d9b8acab998b30d53000f83aJPEG.JPEG",
+                "name": "鲜之源（小龙虾·海鲜·大闸蟹·干锅）",
+                "rating": 4.7,
+                "recent_order_num": 404,
+                "scheme": "https://h5.ele.me/shop/#id=E8036164714008853721?o2o_extra_param=%7B%22rank_id%22%3A%2265bbc492317045ea91222d5f9e46f4e9%22%7D",
+                "type": 0
+            }
+        },
+        {
+            "bonus": 0,
+            "coupons": [
+                {
+                    "activity_id": 493095835,
+                    "activity_type": 406,
+                    "applicable_type": 1,
+                    "chain_id": 0,
+                    "detail_json": "",
+                    "name": "河畔私房菜炒菜烤鱼龙虾干锅汤锅(华阳店)",
+                    "reduce_amount": 6,
+                    "status": 0,
+                    "sum_condition": 0
+                }
+            ],
+            "is_only_today": false,
+            "restaurant": {
+                "description": "满30元减10元，满55元减20元，满100元减32元，满150元减45元，满200元减55元",
+                "id": "E7297657150888223360",
+                "image_path": "93988e2e13ae3c316675a54a40eb8037png",
+                "image_url": "http://fuss10.elemecdn.com/9/39/88e2e13ae3c316675a54a40eb8037png.png",
+                "name": "河畔私房菜炒菜烤鱼龙虾干锅汤锅(华阳店)",
+                "rating": 4.7,
+                "recent_order_num": 106,
+                "scheme": "https://h5.ele.me/shop/#id=E7297657150888223360?o2o_extra_param=%7B%22rank_id%22%3A%2265bbc492317045ea91222d5f9e46f4e9%22%7D",
+                "type": 0
+            }
+        },
+        {
+            "bonus": 0,
+            "coupons": [
+                {
+                    "activity_id": 467104339,
+                    "activity_type": 406,
+                    "applicable_type": 1,
+                    "chain_id": 0,
+                    "detail_json": "",
+                    "name": "陈四嬢.小龙虾·海鲜·干锅·烤鱼·烧烤·大闸蟹(沙堰店)",
+                    "reduce_amount": 8,
+                    "status": 0,
+                    "sum_condition": 0
+                }
+            ],
+            "is_only_today": false,
+            "restaurant": {
+                "description": "满22元减8元，满68元减28元，满108元减38元，满198元减68元",
+                "id": "E17442795893203275017",
+                "image_path": "04E27AC7157941D6963B14EC55044035png",
+                "image_url": "http://fuss10.elemecdn.com/0/4E/27AC7157941D6963B14EC55044035png.png",
+                "name": "陈四嬢.小龙虾·海鲜·干锅·烤鱼·烧烤·大闸蟹(沙堰店)",
+                "rating": 4.5,
+                "recent_order_num": 1133,
+                "scheme": "https://h5.ele.me/shop/#id=E17442795893203275017?o2o_extra_param=%7B%22rank_id%22%3A%2265bbc492317045ea91222d5f9e46f4e9%22%7D",
+                "type": 0
+            }
+        },
+        {
+            "bonus": 0,
+            "coupons": [
+                {
+                    "activity_id": 437977891,
+                    "activity_type": 406,
+                    "applicable_type": 1,
+                    "chain_id": 0,
+                    "detail_json": "",
+                    "name": "腾逸龙虾",
+                    "reduce_amount": 7,
+                    "status": 0,
+                    "sum_condition": 0
+                }
+            ],
+            "is_only_today": false,
+            "restaurant": {
+                "description": "满50元减35元，满80元减55元，满130元减85元，满200元减145元",
+                "id": "E16983184725236481033",
+                "image_path": "b94e08cd9962a83c045c5127b8002f62png",
+                "image_url": "http://fuss10.elemecdn.com/b/94/e08cd9962a83c045c5127b8002f62png.png",
+                "name": "腾逸龙虾",
+                "rating": 4.3,
+                "recent_order_num": 64,
+                "scheme": "https://h5.ele.me/shop/#id=E16983184725236481033?o2o_extra_param=%7B%22rank_id%22%3A%2265bbc492317045ea91222d5f9e46f4e9%22%7D",
+                "type": 0
+            }
+        }
+    ],
+    "rank_id": "65bbc492317045ea91222d5f9e46f4e9"
+}

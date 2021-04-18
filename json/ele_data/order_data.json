@@ -1,0 +1,840 @@
+{
+    "account_address_count": 4,
+    "announcement": "为减少接触，降低风险，请修改下方备注",
+    "app_abandoned_info": {
+        "description": "",
+        "is_abandoned": false,
+        "scheme": "eleme://web?"
+    },
+    "book_hongbao_promotion_tips": "",
+    "business_type": 0,
+    "cart": {
+        "abandoned_extra": [],
+        "activityMutexDescList": [],
+        "bottom_tip": "",
+        "category": 1,
+        "conditional_extra": [],
+        "deliver_amount": 39.0,
+        "deliver_time": "",
+        "delivery_tip": {
+            "color": "999999",
+            "content": "",
+            "scheme": ""
+        },
+        "discount_amount": -14.0,
+        "discount_amount_sum": -14.0,
+        "extra": {
+            "agent_fee": {
+                "category_id": 2,
+                "description": "",
+                "id": -10,
+                "max_quantity": 1,
+                "name": "配送费",
+                "original_price": 4.0,
+                "price": 0.0,
+                "quantity": 1,
+                "sale_total_weight": 0.0,
+                "type": 0
+            },
+            "others": [
+                {
+                    "category_id": 12,
+                    "description": "",
+                    "icon": {
+                        "color": "00b762",
+                        "image_hash": "",
+                        "name": "新客"
+                    },
+                    "id": 23226226717,
+                    "max_quantity": 1,
+                    "name": "首次光顾立减",
+                    "original_price": -8.0,
+                    "price": -8.0,
+                    "quantity": 1,
+                    "sale_total_weight": 0.0,
+                    "type": 108
+                },
+                {
+                    "category_id": 12,
+                    "description": "",
+                    "icon": {
+                        "color": "f07373",
+                        "image_hash": "",
+                        "name": "满减"
+                    },
+                    "id": 23212212035,
+                    "level": 35.0,
+                    "max_quantity": 1,
+                    "name": "店铺满减优惠",
+                    "original_price": -6.0,
+                    "price": -6.0,
+                    "quantity": 1,
+                    "sale_total_weight": 0.0,
+                    "type": 102
+                }
+            ]
+        },
+        "group": [
+            [
+                {
+                    "act_tags": [],
+                    "activities": [],
+                    "attrs": [
+                        {
+                            "name": "温度",
+                            "value": "少冰"
+                        },
+                        {
+                            "name": "糖度",
+                            "value": "1分糖"
+                        },
+                        {
+                            "name": "加料1",
+                            "value": "无"
+                        },
+                        {
+                            "name": "加料2",
+                            "value": "无"
+                        }
+                    ],
+                    "beyond_time_peroid": 0,
+                    "category_id": 1,
+                    "discount_amount": 0.0,
+                    "food_type": 0,
+                    "garnish": [],
+                    "group_id": 1691695444,
+                    "id": 1887979922,
+                    "image_hash": "d0f8abfc9aa4c97b8d5c7f6a64128791png",
+                    "is_selected": true,
+                    "is_sold_out": 0,
+                    "is_understock": 0,
+                    "is_valid": 1,
+                    "min_purchase_quantity": 1,
+                    "name": "（大杯）多肉荔枝-免费配料",
+                    "new_specs": [
+                        {
+                            "name": "规格",
+                            "value": "免费配料"
+                        }
+                    ],
+                    "price": 20.0,
+                    "quantity": 1,
+                    "sale_total_weight": 0.0,
+                    "sale_unit": "",
+                    "scheme": "eleme://catering?target_food_id=1887979922&restaurant_id=E9034179824351644602&category_id=1691695444",
+                    "sku_id": "100000219882610556",
+                    "specs": [
+                        "免费配料"
+                    ],
+                    "stock": 9963,
+                    "total_discount_amount": 0.0,
+                    "total_price": 20.0,
+                    "weight": 1,
+                    "weight_flag": 2
+                },
+                {
+                    "act_tags": [],
+                    "activities": [],
+                    "attrs": [
+                        {
+                            "name": "温度",
+                            "value": "少冰"
+                        },
+                        {
+                            "name": "糖度",
+                            "value": "3分糖"
+                        },
+                        {
+                            "name": "加料1",
+                            "value": "无"
+                        },
+                        {
+                            "name": "加料2",
+                            "value": "无"
+                        }
+                    ],
+                    "beyond_time_peroid": 0,
+                    "category_id": 1,
+                    "discount_amount": 0.0,
+                    "food_type": 0,
+                    "garnish": [],
+                    "group_id": 1691695444,
+                    "id": 2000000010808775,
+                    "image_hash": "11c9c7633e61ec3aa7c7e007833b0d45png",
+                    "is_selected": true,
+                    "is_sold_out": 0,
+                    "is_understock": 0,
+                    "is_valid": 1,
+                    "min_purchase_quantity": 1,
+                    "name": "（大杯）多肉葡萄-免费配料",
+                    "new_specs": [
+                        {
+                            "name": "规格",
+                            "value": "免费配料"
+                        }
+                    ],
+                    "price": 19.0,
+                    "quantity": 1,
+                    "sale_total_weight": 0.0,
+                    "sale_unit": "",
+                    "scheme": "eleme://catering?target_food_id=2000000010808775&restaurant_id=E9034179824351644602&category_id=1691695444",
+                    "sku_id": "300000011081751420",
+                    "specs": [
+                        "免费配料"
+                    ],
+                    "stock": 9974,
+                    "total_discount_amount": 0.0,
+                    "total_price": 19.0,
+                    "weight": 1,
+                    "weight_flag": 2
+                }
+            ]
+        ],
+        "id": "b42b0c5af8e94d7cad341444ef38b20e",
+        "ingredient_group": [],
+        "is_address_too_far": 0,
+        "is_pintuan": 0,
+        "minimum_order_amount": 15.0,
+        "newUserStatus": 0,
+        "ontime_description_scheme": "eleme://web?url=https%3A//h5.ele.me/service/%23ontime",
+        "ontime_logo": "b3dea805fa0b4b6eb4f93c82d6266073png",
+        "ontime_promotion_text": "超时10分钟享赔付",
+        "ontime_status": 1,
+        "ontime_unavailable_reason": "当前特殊情况暂不享受超时赔付",
+        "original_total": 39.0,
+        "package_group": [],
+        "pick_up_time": "",
+        "pindan": {
+            "is_pindan": 0,
+            "lock": 0,
+            "num": 0,
+            "order_id": 0,
+            "order_token": "",
+            "owners": [],
+            "share_pindan": {
+                "description": "我要点【茉沏(成都奥克斯店)】的外卖，有一起点的么？",
+                "image_path": "http://cube.elemecdn.com/A/7C/E666FE6EF4F6E83654B2D563CD80Dpng.png?w=86&h=86",
+                "title": "有人一起点外卖么？",
+                "url": "https://h5.ele.me/spell/?cartId=b42b0c5af8e94d7cad341444ef38b20e&sig=d73478fa4a8f4afc530476d0ffe6ccaa&restaurant_id=E9034179824351644602"
+            },
+            "unique_id": "0"
+        },
+        "restaurant": {
+            "address": "中国（四川）自由贸易试验区成都高新区锦城大道666号奥克斯广场负1层D001号",
+            "closing_remain_seconds": 0,
+            "delivery_type": {
+                "bg_colors": [
+                    "00aaff",
+                    "0085ff"
+                ],
+                "name": "蜂鸟专送",
+                "text_color": "ffffff"
+            },
+            "id": "E9034179824351644602",
+            "image_path": "A7CE666FE6EF4F6E83654B2D563CD80Dpng",
+            "is_closed": 0,
+            "is_fengniao": 1,
+            "latitude": 30.576403,
+            "longitude": 104.062131,
+            "name": "茉沏(成都奥克斯店)",
+            "next_business_time": "",
+            "onlyTakeInShop": false,
+            "only_use_poi": 0,
+            "phone": "",
+            "piecewise_agent_fee": {
+                "rules": [
+                    {
+                        "fee": 4.0,
+                        "price": 15.0
+                    }
+                ]
+            },
+            "receivingMode": 1,
+            "scheme": "eleme://catering?restaurant_id=E9034179824351644602",
+            "status": 1,
+            "take_by_self": 1,
+            "type": 0
+        },
+        "serviceFeeInfo": {
+            "baseExtraDeliveryFee": 0.0,
+            "distanceFee": 0.0,
+            "lpdExtraFee": 0.0,
+            "nightServiceFee": 0.0,
+            "weatherFee": 0.0,
+            "weightFee": 0.0
+        },
+        "service_fee_explanation": "",
+        "sig": "d73478fa4a8f4afc530476d0ffe6ccaa",
+        "total": 25.0,
+        "total_sum": 25.0,
+        "tying_groups": [],
+        "tying_sku_group": [],
+        "tying_sku_total": 0.0
+    },
+    "deliver_times": [
+        {
+            "tab": "今日（周三）",
+            "time_points": [
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "",
+                    "promotion_tips": "",
+                    "time": "16:09"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "16:15",
+                    "promotion_tips": "",
+                    "time": "16:15"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "16:30",
+                    "promotion_tips": "",
+                    "time": "16:30"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "16:45",
+                    "promotion_tips": "",
+                    "time": "16:45"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "17:00",
+                    "promotion_tips": "",
+                    "time": "17:00"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "17:15",
+                    "promotion_tips": "",
+                    "time": "17:15"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "17:30",
+                    "promotion_tips": "",
+                    "time": "17:30"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "17:45",
+                    "promotion_tips": "",
+                    "time": "17:45"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "18:00",
+                    "promotion_tips": "",
+                    "time": "18:00"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "18:15",
+                    "promotion_tips": "",
+                    "time": "18:15"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "18:30",
+                    "promotion_tips": "",
+                    "time": "18:30"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "18:45",
+                    "promotion_tips": "",
+                    "time": "18:45"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "19:00",
+                    "promotion_tips": "",
+                    "time": "19:00"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "19:15",
+                    "promotion_tips": "",
+                    "time": "19:15"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "19:30",
+                    "promotion_tips": "",
+                    "time": "19:30"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "19:45",
+                    "promotion_tips": "",
+                    "time": "19:45"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "20:00",
+                    "promotion_tips": "",
+                    "time": "20:00"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "20:15",
+                    "promotion_tips": "",
+                    "time": "20:15"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "20:30",
+                    "promotion_tips": "",
+                    "time": "20:30"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "20:45",
+                    "promotion_tips": "",
+                    "time": "20:45"
+                },
+                {
+                    "delivery_fee_description": "6元配送费",
+                    "delivery_time": "21:00",
+                    "promotion_tips": "",
+                    "time": "21:00"
+                },
+                {
+                    "delivery_fee_description": "6元配送费",
+                    "delivery_time": "21:15",
+                    "promotion_tips": "",
+                    "time": "21:15"
+                },
+                {
+                    "delivery_fee_description": "6元配送费",
+                    "delivery_time": "21:30",
+                    "promotion_tips": "",
+                    "time": "21:30"
+                }
+            ]
+        },
+        {
+            "tab": "明日（周四）",
+            "time_points": [
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "2020-06-25 10:30",
+                    "promotion_tips": "",
+                    "time": "10:30"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "2020-06-25 10:45",
+                    "promotion_tips": "",
+                    "time": "10:45"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "2020-06-25 11:00",
+                    "promotion_tips": "",
+                    "time": "11:00"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "2020-06-25 11:15",
+                    "promotion_tips": "",
+                    "time": "11:15"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "2020-06-25 11:30",
+                    "promotion_tips": "",
+                    "time": "11:30"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "2020-06-25 11:45",
+                    "promotion_tips": "",
+                    "time": "11:45"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "2020-06-25 12:00",
+                    "promotion_tips": "",
+                    "time": "12:00"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "2020-06-25 12:15",
+                    "promotion_tips": "",
+                    "time": "12:15"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "2020-06-25 12:30",
+                    "promotion_tips": "",
+                    "time": "12:30"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "2020-06-25 12:45",
+                    "promotion_tips": "",
+                    "time": "12:45"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "2020-06-25 13:00",
+                    "promotion_tips": "",
+                    "time": "13:00"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "2020-06-25 13:15",
+                    "promotion_tips": "",
+                    "time": "13:15"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "2020-06-25 13:30",
+                    "promotion_tips": "",
+                    "time": "13:30"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "2020-06-25 13:45",
+                    "promotion_tips": "",
+                    "time": "13:45"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "2020-06-25 14:00",
+                    "promotion_tips": "",
+                    "time": "14:00"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "2020-06-25 14:15",
+                    "promotion_tips": "",
+                    "time": "14:15"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "2020-06-25 14:30",
+                    "promotion_tips": "",
+                    "time": "14:30"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "2020-06-25 14:45",
+                    "promotion_tips": "",
+                    "time": "14:45"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "2020-06-25 15:00",
+                    "promotion_tips": "",
+                    "time": "15:00"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "2020-06-25 15:15",
+                    "promotion_tips": "",
+                    "time": "15:15"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "2020-06-25 15:30",
+                    "promotion_tips": "",
+                    "time": "15:30"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "2020-06-25 15:45",
+                    "promotion_tips": "",
+                    "time": "15:45"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "2020-06-25 16:00",
+                    "promotion_tips": "",
+                    "time": "16:00"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "2020-06-25 16:15",
+                    "promotion_tips": "",
+                    "time": "16:15"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "2020-06-25 16:30",
+                    "promotion_tips": "",
+                    "time": "16:30"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "2020-06-25 16:45",
+                    "promotion_tips": "",
+                    "time": "16:45"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "2020-06-25 17:00",
+                    "promotion_tips": "",
+                    "time": "17:00"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "2020-06-25 17:15",
+                    "promotion_tips": "",
+                    "time": "17:15"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "2020-06-25 17:30",
+                    "promotion_tips": "",
+                    "time": "17:30"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "2020-06-25 17:45",
+                    "promotion_tips": "",
+                    "time": "17:45"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "2020-06-25 18:00",
+                    "promotion_tips": "",
+                    "time": "18:00"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "2020-06-25 18:15",
+                    "promotion_tips": "",
+                    "time": "18:15"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "2020-06-25 18:30",
+                    "promotion_tips": "",
+                    "time": "18:30"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "2020-06-25 18:45",
+                    "promotion_tips": "",
+                    "time": "18:45"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "2020-06-25 19:00",
+                    "promotion_tips": "",
+                    "time": "19:00"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "2020-06-25 19:15",
+                    "promotion_tips": "",
+                    "time": "19:15"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "2020-06-25 19:30",
+                    "promotion_tips": "",
+                    "time": "19:30"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "2020-06-25 19:45",
+                    "promotion_tips": "",
+                    "time": "19:45"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "2020-06-25 20:00",
+                    "promotion_tips": "",
+                    "time": "20:00"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "2020-06-25 20:15",
+                    "promotion_tips": "",
+                    "time": "20:15"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "2020-06-25 20:30",
+                    "promotion_tips": "",
+                    "time": "20:30"
+                },
+                {
+                    "delivery_fee_description": "4元配送费",
+                    "delivery_time": "2020-06-25 20:45",
+                    "promotion_tips": "",
+                    "time": "20:45"
+                },
+                {
+                    "delivery_fee_description": "6元配送费",
+                    "delivery_time": "2020-06-25 21:00",
+                    "promotion_tips": "",
+                    "time": "21:00"
+                },
+                {
+                    "delivery_fee_description": "6元配送费",
+                    "delivery_time": "2020-06-25 21:15",
+                    "promotion_tips": "",
+                    "time": "21:15"
+                },
+                {
+                    "delivery_fee_description": "6元配送费",
+                    "delivery_time": "2020-06-25 21:30",
+                    "promotion_tips": "",
+                    "time": "21:30"
+                }
+            ]
+        }
+    ],
+    "deliver_times_extra": {
+        "use_new_api": false
+    },
+    "deliveryExtra": {
+        "deliveryProductId": 44
+    },
+    "delivery_reach_time": "16:09",
+    "entrances": [],
+    "gift_option": {
+        "giver_phone": {
+            "description": "选填，便于商家及时沟通",
+            "is_required": false
+        },
+        "is_available": 0
+    },
+    "hongpon_info": {
+        "available_count": 0,
+        "bestPromotionStatus": 1,
+        "disabled": false,
+        "hongpon_entities": [],
+        "show_type": "invalid_special",
+        "status": -1,
+        "status_text": "选择地址后使用红包",
+        "title": "红包/抵用券",
+        "unavailable_count": 0
+    },
+    "invoice": {
+        "einvoice_flag": 2,
+        "is_available": true,
+        "is_hidden": false,
+        "status_text": "不需要开发票"
+    },
+    "is_support_ninja": 1,
+    "merchant_promise": {
+        "is_active": 0
+    },
+    "mifan_tip": "",
+    "ninja_option": {
+        "is_auto_select": 1,
+        "is_support": 1
+    },
+    "number_of_meals": {
+        "description": "便于商家带够餐具",
+        "environmental_slogan": "选无需餐具，用支付宝付款得16g能量",
+        "is_available": true,
+        "must_select_by_user": false,
+        "notice_cancel_disposable_tableware": true,
+        "reward": "3金币",
+        "slogan_tiny_icon": "8d7a7374cd66acef898c2584ff64b0eepng"
+    },
+    "order_note_option": {
+        "entrance_description": "点击可选择无接触配送",
+        "hint": "无接触配送，辛苦将商品挂门把手上、放前台桌上或者指定地点",
+        "is_support": 1
+    },
+    "pay_methods": [
+        {
+            "disable_reason": "",
+            "id": 1,
+            "is_online_payment": true,
+            "name": "在线支付",
+            "promotion": [],
+            "select_state": 1
+        }
+    ],
+    "pay_methods_v2": [],
+    "phone": "",
+    "shop_distance_desc": "距你1.1km",
+    "svip_mission_cell": {
+        "is_available": 0
+    },
+    "svip_subscribe_remind": {
+        "is_available": 0
+    },
+    "toast": "",
+    "tying_bottom_bar": {
+        "content": [
+            {
+                "color": "FFFFFF",
+                "font_size": 12,
+                "text": "成为超级会员，本单减5元"
+            }
+        ],
+        "icon_hash": "a1b48864fe002365f22496ed2806c7depng",
+        "is_available": true,
+        "product_type": "supervip",
+        "tip": "成为超级会员，本单减5元"
+    },
+    "tying_products": [],
+    "tying_products_v2": [
+        {
+            "bottom_bar": {
+                "content": [
+                    {
+                        "color": "FFFFFF",
+                        "font_size": 12,
+                        "text": "成为超级会员，本单减5元"
+                    }
+                ],
+                "icon_hash": "a1b48864fe002365f22496ed2806c7depng",
+                "is_available": true,
+                "product_type": "supervip",
+                "tip": "成为超级会员，本单减5元"
+            },
+            "category_id": 71,
+            "discount_description": [
+                {
+                    "highlight": "",
+                    "text": "每月都送你20元无门槛红包"
+                }
+            ],
+            "discount_description_v2": [
+                [
+                    {
+                        "color": "999999",
+                        "image_hash": "",
+                        "text": "每月都送你20元无门槛红包"
+                    }
+                ]
+            ],
+            "discount_total": 5.0,
+            "exchange_bonus": 0.0,
+            "icon_hash": "c7aa84b6241f335792edd15457b389cdpng",
+            "id": 701,
+            "is_new_svip_user": false,
+            "is_show": true,
+            "logo": "",
+            "marketing_icon": "0cb38b4623beb4525bcfb99494bbec9apng",
+            "name": "成为超级会员，本单减5元",
+            "original_price": 15.0,
+            "pop_up": {
+                "button_text": "去加购",
+                "context_image_hash": "4da1e59e8c5060a30817544d8c359e0epng",
+                "context_text": "",
+                "is_available": false,
+                "popup_type": 0
+            },
+            "price": 12.0,
+            "quantity": 1,
+            "selected_description": [],
+            "sidebar_color": "D7C56F",
+            "tip_scheme": "eleme://web?url=https%3A//h5.ele.me/supervip/%3Fhide_footer%3Dtrue&navColor=%2327241f"
+        }
+    ],
+    "tying_sku_products": [],
+    "tying_sku_rank_id": "596e6f1376854b8093f62d404a2e3a65"
+}

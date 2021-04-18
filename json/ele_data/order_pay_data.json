@@ -1,0 +1,72 @@
+{
+    "backUrl": "https://h5.ele.me/order/#!/5003180938959969378",
+    "cashierMarketing": null,
+    "mixedPay": false,
+    "orderMemo": {
+        "user_info":"林除夕(先生) 123****9999",
+        "address":"上海浦东新区陆家嘴滨江大道旁的花园石桥路28弄1-4层5-1005",
+        "goods":[
+            "酸辣姜爆鸭丝盖饭（赠烤肠一根）-份  x1",
+            "原味蒸蛋-份  x1"
+        ]
+    },
+    "orderName": "乡村基(大学城店)外卖订单",
+    "orderStatus": "I",
+    "payCodeInfoList": [
+        {
+            "acctAmount": null,
+            "checkPayPassword": false,
+            "collapsed": false,
+            "confirmPayButtonMsg": "支付宝付款 ¥23.87",
+            "invalid": false,
+            "lastUsed": false,
+            "marketingInfoList": null,
+            "paidAmount": null,
+            "payChannel": "WAP",
+            "payCode": "ALI_PAY",
+            "payCodeDesc": "",
+            "payCodeTips": "支付宝付款",
+            "payCodeTitle": "支付宝",
+            "payCodeType": "THIRD_PAY",
+            "promotionInfoList": null,
+            "promotionTips": null,
+            "required": false
+        },
+        {
+            "acctAmount": null,
+            "checkPayPassword": false,
+            "collapsed": true,
+            "confirmPayButtonMsg": "微信支付 ¥23.87",
+            "invalid": false,
+            "lastUsed": false,
+            "marketingInfoList": null,
+            "paidAmount": null,
+            "payChannel": "WAP",
+            "payCode": "WEIXIN_PAY",
+            "payCodeDesc": "",
+            "payCodeTips": null,
+            "payCodeTitle": "微信支付",
+            "payCodeType": "THIRD_PAY",
+            "promotionInfoList": null,
+            "promotionTips": null,
+            "required": false
+        }
+    ],
+    "payToken": "qQIABDANBgkqhkiG000BAQEFNNSCAl8wggJbAgEAAoGBAKhkjf4Zb1JS456546546",
+    "payerBelongId": 501001,
+    "payerCustomerId": "4880624555",
+    "requestId": 5,
+    "requestUid": "4880624555",
+    "resultCode": "000000",
+    "resultDesc": null,
+    "returnUrl": "https://h5.ele.me/ordersuccess/#user_id=4880624555&order_id=50031809389591546654&restaurant_id=2019451545",
+    "showMsg": null,
+    "timeoutMilliseconds": 900421,
+    "totalAmount": 23870000,
+    "transOrderInfoList": [
+        {
+            "busiOrderNo": "50031809389591546654",
+            "partnerId": 501001
+        }
+    ]
+}
