@@ -15,12 +15,6 @@ excerpt: 笔记搬运以防丢失如有侵犯请联系我处理
 
 Vue 是一套用于构建用户界面的渐进式的 JavaScript 框架。具有体积小，更高的运行效率，双向数据绑定，生态丰富、学习成本低等优点，所以 Vue 也被广泛用在移动端跨平台框架上。Vue 框架通过数据双向绑定和虚拟 DOM 技术，帮我们处理了前端开发中最脏最累的 DOM 操作部分， 我们不再需要去考虑如何操作 DOM 以及如何最高效地操作 DOM，但是我们仍然需要去关注 Vue 在跨平台项目性能方面的优化，使项目具有更高效的性能、更好的用户体验。
 
-
-
-
-
-
-
 ## 1. v-for 遍历必须为 item 添加 key，且避免同时使用 v-if
 
 
@@ -99,11 +93,6 @@ Vue 会通过 Object.defineProperty 对数据进行劫持，来实现视图响�
 
 ![img](/i-10/008aq1Apgy1gvf16su58lj612w0j2q4002.jpg)
 
-##  
-
-##  
-
-##  
 
 ## 3. vue 组件中的 data 是函数而不是对象
 
@@ -145,11 +134,11 @@ Vue 会通过 Object.defineProperty 对数据进行劫持，来实现视图响�
 
 
 
-\2. 通过 $once(eventName,eventHandler) 一次性侦听一个事件；
+2. 通过 $once(eventName,eventHandler) 一次性侦听一个事件；
 
 
 
-\3. 通过 $off(eventName, eventHandler) 停止侦听一个事件；
+3. 通过 $off(eventName, eventHandler) 停止侦听一个事件；
 
 
 
@@ -172,11 +161,6 @@ vue 实例中需要有这个定时器的实例，感觉有点多余。创建的�
 ![img](/i-10/008aq1Apgy1gvf18fpzhdj612w03pq3r02.jpg)
 
 ![img](/i-10/008aq1Apgy1gvf18kfoyfj612w0n275o02.jpg)
-
-##  
-
-##  
-
 
 
 ## 5. 组件懒加载
@@ -225,11 +209,6 @@ npm install @xunlei/vue-lazy-component
 
 ![img](/i-10/008aq1Apgy1gvf19lkd0cj612w0eomy502.jpg)
 
-##  
-
-##  
-
-##  
 
 ## 6. 非响应式数据
 
@@ -241,32 +220,19 @@ npm install @xunlei/vue-lazy-component
 
 **性能提升对比**
 
-**
-**
-
 在基于 Vue 的一个 big table benchmark 里，可以看到在渲染一个一个 1000 x 10 的表格的时候，开启 Object.freeze()前后重新渲染的对比。
 
 
 
 ![img](/i-10/008aq1Aply4gvf19umizmj60u00mm0uy02.jpg)
 
-**
-**
-
 **开启优化之前：**
-
-**
-**
 
 ![img](/i-10/008aq1Aply4gvf19ulqzhj60ts03idfy02.jpg)
 
-**
-**
+
 
 **开启优化之后：**
-
-**
-**
 
 ![img](/i-10/008aq1Aply4gvf19uomo3j60t802w74e02.jpg)
 
@@ -274,22 +240,11 @@ npm install @xunlei/vue-lazy-component
 
 在这个例子里,使用了 Object.freeze()比不使用快了 4 倍，为什么 Object.freeze()的性能会更好？
 
-
-
 **不使用 Object.freeze()的 CPU 开销**
-
-**
-**
 
 ![img](/i-10/008aq1Aply4gvf19uowexj60po0m8jtp02.jpg)
 
-**
-**
-
 **使用 Object.freeze()的 CPU 开销**
-
-**
-**
 
 ![img](/i-10/008aq1Aply4gvf19utcmpj60nc0ekgmz02.jpg)
 
@@ -299,26 +254,13 @@ npm install @xunlei/vue-lazy-component
 
 
 
-
-
-
-
 ## 7. 不要将所有的数据都放到 data 中
-
-**
-**
 
 data 中的数据都会增加 getter 和 setter，又会收集 watcher，这样还占内存。不需要响应式的数据我们可以定义在实例上。
 
 
 
 ![img](/i-10/008aq1Aply4gvf1aoqwgbj60u00bqaas02.jpg)
-
-
-
-
-
-
 
 ## 8. v-for元素绑定事件代理
 
@@ -332,7 +274,7 @@ data 中的数据都会增加 getter 和 setter，又会收集 watcher，这样�
 
 
 
-\2. 动态生成子节点时能自动绑定事件处理程序到父节点
+2. 动态生成子节点时能自动绑定事件处理程序到父节点
 
 
 
@@ -374,11 +316,6 @@ data 中的数据都会增加 getter 和 setter，又会收集 watcher，这样�
 
 ![img](/i-10/008aq1Apgy1gvf1bvdjzvj612w0ktta702.jpg)
 
-##  
-
-##  
-
-##  
 
 ## 9. 函数式组件
 
@@ -386,23 +323,13 @@ data 中的数据都会增加 getter 和 setter，又会收集 watcher，这样�
 
 函数式组件是无状态，它无法实例化，没有任何的生命周期和方法。创建函数式组件也很简单，只需要在模板添加 functional 声明即可。一般适合只依赖于外部数据的变化而变化的组件，因其轻量，渲染性能也会有所提高。
 
-
-
 组件需要的一切都是通过 context 参数传递。它是一个上下文对象，具体属性查看文档。这里 props 是一个包含所有绑定属性的对象。
-
-
 
 函数式组件：
 
 
 
 ![img](/i-10/008aq1Aply4gvf1c36yy2j60u00650t502.jpg)
-
-##  
-
-##  
-
-##  
 
 ## 10. provide 和 inject 组件通信
 
