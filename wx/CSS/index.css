@@ -1,0 +1,259 @@
+
+/* 初始化CSS */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* 通用样式 */
+a {
+    text-decoration: none;
+    color: #609700;
+    font-size: 14px;
+}
+a:hover {
+    color: #333;
+    text-decoration: underline;
+}
+/* 给版心 */
+.bx {
+    width: 968px;
+    margin: 0 auto;        /* 使用这个会出现外边距合并的问题导致整个顶部下移无法贴住浏览器顶部     解决方法 1.给父元素一个1px的边框 */
+    overflow: hidden;       /* 清除浮动 */
+}
+p {
+    font: 400 16px -apple-system-font,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Hiragino Sans GB,Microsoft YaHei UI,Microsoft YaHei,Arial,sans-serif;
+    color: #979797;
+    line-height: 2;
+}
+h4 {
+    font-size: 14px;
+}
+li {
+    color: #999;
+    line-height: 1.8;
+}
+
+/* 头部导航栏开始 */
+.top {
+    /* 1.确定头部区域背景高度 */
+    height: 500px;
+    background: url(../images/bgi.jpg) repeat-x;
+    overflow: hidden;       /* 第二种解决外边距的方式 */
+    /* border: 0.1px solid #fff;     使用添加边框方式解决边框合并的问题会出现一个尴尬的情况，就是多出来一个边框 */
+}
+.logo {
+    /* 2.修改logo大小及位置 */
+    float: left;
+    margin-top: 14px;
+    overflow: hidden;
+}
+.logo img {
+    /* 2.修改logo大小及位置 */
+    width: 130px;
+    height: 44px;
+    vertical-align: bottom;
+}
+/* 3.调整第一个标签的位置 */
+.nav {
+    float: right;
+    overflow: hidden;       /* 清除li元素的浮动效果*/
+    text-align: left;
+}
+/* 4.去除li的小圆点 */
+.nav li {
+    float: left;
+    overflow: hidden;
+    list-style: none;
+    margin-left: 10px;
+    margin-top: 22px;        /* 使文字与图片居中对齐 */
+}
+/* 5.去除a的下划线 改为白色 调整字体大小及行高 调整a的高度及背景 */
+.nav a {
+    float: left;
+    height: 33px;
+    padding-left: 14px;      /* 因为文字会把背景的边框压住必须让它移开 */
+    background: url(../images/tu.png) no-repeat;
+    text-decoration: none;
+    color: #fff;
+}
+/* 6.添加滑动门效果 */
+.nav span {
+    /* display: inline-block;      行内元素默认是没有宽高的，必须要转换之后才有宽高 */
+    float: left;
+    height: 33px;
+    padding-right: 14px;        /* 因为文字会压住右边的背景边框所以加一个内边距 */
+    background: url(../images/tu.png) no-repeat right;
+    font: 14px/33px -apple-system-font,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Hiragino Sans GB,Microsoft YaHei UI,Microsoft YaHei,Arial,sans-serif;
+}
+/* 7.添加鼠标经过时的变化效果 */
+.nav a:hover,.nav a:hover span {
+    background-image: url(../images/ao.png);
+}
+/* 顶部导航栏结束 */
+/* banner开始 */
+/* 1.给版心大小，确定左侧盒子大小 */
+.banner {
+    width: 968px;
+    margin: 0 auto;
+}
+/* 左侧开始 */
+.banner .left {
+    float: left;
+    text-align: left;
+}
+/* 2。处理图片上方的文字 */
+.banner .left h2 {
+    font: 400 26px -apple-system-font,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Hiragino Sans GB,Microsoft YaHei UI,Microsoft YaHei,Arial,sans-serif;
+    margin-top: 49px;
+    margin-bottom: 15px;
+}
+.banner .left img {
+    cursor: pointer;
+    width: 224px;
+    height: 64px;
+    margin-top: 15px;
+    margin-bottom: 5px;        /* 用来确定download与其下面链接的距离 */
+}
+.banner .left ul {
+    margin-left: 16px;
+}
+.banner .left li {
+    color: #999;
+    line-height: 1.5;
+}
+/* 左侧结束 */
+/* 右侧开始 */
+/* 1.确定盒子的大小 */
+.banner .right {
+    float: left;
+    width: 490px;
+    margin-top: 38px;
+    margin-left: 68px;
+    text-align: center;
+    position: relative;
+}
+.banner .right h3 {
+    font: 400 14px -apple-system-font,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Hiragino Sans GB,Microsoft YaHei UI,Microsoft YaHei,Arial,sans-serif;
+    margin-top: 10px;
+}
+.d_txt {
+    width: 180px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+.banner .dot {
+    width: 100px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.dot>a {
+    float: left;
+    width: 11px;
+    height: 11px;
+    margin: 30px 10px 10px;
+    background: url(../images/icon_sprite.png) no-repeat -42px -115px ;
+}
+.banner .dot a:hover {
+    background-position: -18px -115px;
+}
+/* 左右切图箭头开始 */
+.right>.l,
+.right>.r {
+    position: absolute;
+    top: 50%;
+    margin-top: -18px;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+}
+.right:hover>.l {
+    left: -30px;
+    background: url(../images/icon_sprite.png) no-repeat -18px -13px;
+}
+.right:hover>.r {
+    right: -30px;
+    background: url(../images/icon_sprite.png) no-repeat -70px -13px;
+}
+/* banner结束 */
+/* main开始 */
+.main {
+    border-bottom: 1px solid #D4DADF;
+}
+.main .left {
+    float: left;
+    width: 636px;
+}
+.main .left div {
+    float: left;
+    text-align: left;
+    margin: 45px 12px 0 0;
+    width: 200px;
+}
+.main .left p{
+    font-size: 14px;
+}
+.main .right {
+    float: right;
+    text-align: left;
+    margin-top: 45px;
+}
+.main .right ul {
+    margin-left: 13px;
+    margin-top: 5px;
+}
+.main .right li {
+    font-size: 12px;
+    line-height: 29px;
+}
+.main .right i {
+    font-size: 12px;
+    font-style: normal;
+    color: red;
+    margin: 0 7px;
+}
+/* .main .right span {
+    font-family: 'Courier New', Courier, monospace;
+}   
+给span单独添加样式后会影响整个li是怎么回事 */
+.main .main_b {
+    float: left;
+    margin: 10px 0 30px;
+}
+.main .main_b img {
+    vertical-align: middle;
+}
+.main .main_b .call_me {
+    font: 700 14px "微软雅黑";
+    color: #000;
+}
+/* main结束 */
+/* footer开始 */
+.f_left {
+    float: left;
+}
+.f_left ul {
+    overflow: hidden;
+}
+.footer li {
+    list-style: none;
+    float: left;
+    margin-top: 10px;
+    text-indent: .33em;
+}
+.footer a {
+    font-size: 12px;
+    color: #888;
+}
+.footer .v_line {
+    margin: 19px 8px 0;
+    height: 13px;
+    width: 1px;
+    background-color: #999;
+}
+.f_left p {
+    font-size: 12px;
+}
+.f_right {
+    float: right;
+}
+/* footer开始 */

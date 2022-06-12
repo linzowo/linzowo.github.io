@@ -1,0 +1,604 @@
+/* 初始化样式及公共样式 */
+
+
+/* css初始化 */
+
+* {
+    margin: 0;
+    padding: 0
+}
+em,
+i {
+    font-style: normal
+}
+
+li {
+    list-style: none
+}
+
+img {
+    border: 0;
+    vertical-align: middle
+}
+
+button {
+    cursor: pointer
+}
+
+a {
+    color: #333;
+    text-decoration: none
+}
+/* a:hover {
+    color: #23b8ff;
+} */
+button,
+input {
+    font-family: Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, \\5B8B\4F53, sans-serif;
+    outline: none;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    background-color: #fff;
+    font: 12px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, \\5B8B\4F53, sans-serif;
+    color: #666
+}
+
+.hide,
+.none {
+    display: none
+}
+
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0
+}
+
+.clearfix {
+    *zoom: 1
+}
+
+
+/* 版心 */
+
+.w {
+    width: 1200px;
+    margin: auto;
+}
+
+
+/* 声明字体 */
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?rrg3k2');
+    src: url('../fonts/icomoon.eot?rrg3k2#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?rrg3k2') format('truetype'), url('../fonts/icomoon.woff?rrg3k2') format('woff'), url('../fonts/icomoon.svg?rrg3k2#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.icofont {
+    font-family: 'icomoon'
+}
+
+
+/* header start */
+
+header {
+    height: 80px;
+    border-bottom: 1px solid #ccc;
+}
+
+header .w {
+    height: 100%;
+    /* background-color: pink; */
+    padding: 15px 0;
+    box-sizing: border-box;
+    /* 设置内减模式 */
+}
+
+
+/* logo part */
+
+header .logo {
+    height: 50px;
+    width: 180px;
+    background: url(../images/logo-3x.ebaa1c7e.png) no-repeat;
+    background-size: 180px 50px;
+}
+
+header .logo a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-indent: -999px;
+    overflow: hidden;
+}
+
+
+/* search part */
+
+.search {
+    width: 350px;
+    height: 50px;
+    box-sizing: border-box;
+    margin-left: 170px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.search .btn1 {
+    height: 100%;
+    width: 65px;
+    border: 1px solid #cccccc;
+    background-color: #fff;
+    position: relative;
+    padding-right: 5px;
+}
+
+.search .btn1::before {
+    content: "\ea50";
+    position: absolute;
+    right: 0;
+    font-family: 'icomoon';
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.search input {
+    height: 100%;
+    width: 235px;
+    border: 1px #ccc;
+    border-style: solid none solid none;
+    padding-left: 10px;
+}
+
+.search .btn2 {
+    height: 100%;
+    width: 50px;
+    border: 0;
+    background-color: #23b8ff;
+    color: #fff;
+    font-size: 25px;
+    vertical-align: top;
+}
+
+
+/* personal part */
+
+.personal {
+    height: 100%;
+    /* background-color: pink; */
+    line-height: 50px;
+}
+
+.personal li {
+    float: left;
+    margin: 0 20px;
+}
+
+.personal li a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    font-size: 14px;
+}
+
+
+/* header end */
+
+
+/* banner start */
+
+.banner {
+    height: 300px;
+    /* background-color: #fef13c; */
+    background-color: pink;
+    position: relative;
+}
+
+.banner .w {
+    position: relative;
+    height: 100%;
+}
+
+
+/* 轮播图 */
+
+.slick_list {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    text-align: center;
+    background-color: #273268;
+}
+
+.slick_list ul a {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+}
+.slick_list ul img {
+    position: absolute;
+    left: 50%;
+    margin-left: -330px;
+}
+
+/* 左右箭头 */
+
+.arr-box {
+    width: 1200px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -600px;
+}
+.arr-box a {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 150px;
+    margin-top: -25px;
+    background-color: rgba(255, 255, 255, .3);
+    border-radius: 50%;
+    z-index: 1;
+    text-align: center;
+    line-height: 50px;
+    visibility: hidden;
+    color: #000;
+    font-size: 20px;
+}
+
+.slick_list .arr-box a:nth-child(1) {
+    left: 285px;
+}
+
+.slick_list .arr-box a:nth-child(2) {
+    right: 260px;
+}
+
+.slick_list:hover .arr-box a {
+    visibility: visible;
+}
+
+
+/* 分类导航 */
+
+.mod_nav {
+    height: 100%;
+    width: 270px;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+}
+
+.mod_nav ul {
+    display: block;
+    height: 100%;
+    margin-left: 10px;
+}
+
+.mod_nav ul a:hover {
+    text-decoration: underline;
+}
+
+.mod_nav ul li {
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    position: relative;
+    background-color: rgba(255, 255, 255, .95);
+    overflow: hidden;
+}
+
+.mod_nav ul li:hover {
+    background-color: #fff;
+}
+
+.nav_first {
+    margin: 0 10px;
+}
+
+.nav_first i {
+    position: absolute;
+    right: 10px;
+    color: #999;
+}
+
+.nav_first a {
+    font-size: 16px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.nav_hot a {
+    margin: 0 5px;
+    float: left;
+    font-size: 14px;
+    color: #666;
+}
+
+
+/* 用户登录 */
+
+.user {
+    width: 220px;
+    height: 260px;
+    background-color: #fff;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 20px;
+    border-radius: 3px;
+    box-shadow: 0 1px 10px 3px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    padding: 21px 0 15px;
+}
+
+.user p {
+    display: block;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    font-size: 16px;
+    color: #999;
+}
+
+.user .login-img {
+    width: 170px;
+    height: 130px;
+    background: url(../images/index-sprite3.8339b953.png) no-repeat -144px -370px;
+    margin: 10px auto auto;
+}
+
+.user .login-btn {
+    width: 200px;
+    height: 50px;
+    background-color: #23b8ff;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+    display: block;
+    color: #fff;
+    margin: 10px auto 0;
+}
+
+
+/* banner end */
+
+
+/* main start */
+
+main {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+/* 主要内容导航栏 */
+.cate-tab {
+    width: 100%;
+    height: 66px;
+    min-width: 1240px;
+    border-bottom: 1px solid #ccc;
+}
+.cate-tab-sub {
+    height: 100%;
+    /* background-color: pink; */
+    position: relative;
+}
+.cate-tab-list {
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+.cate-tab-item {
+    display: inline-block;
+    font-size: 20px;
+    color: #666;
+    padding: 16px 12px;
+    cursor: pointer;
+}
+.cate-tab-item.active {
+    color: #23b8ff;
+    border-bottom: 4px solid #23b8ff;
+}
+.cate-tab-btn-wrap {
+    position: absolute;
+    right: 0;
+    top: 20px;
+}
+.cate-tab-btn-wrap a {
+    color: #666;
+    border: 1px solid #999;
+    padding: 3px 10px;
+    font-size: 14px;
+}
+/* 热门课程展示 */
+/* 课程类别 */
+.course-wrap {
+    margin-top: 48px;
+}
+.course-type {
+    margin-bottom: 5px;
+}
+.course-type h2 {
+    font-size: 30px;
+    list-style: 30px;
+    text-align: center;
+    color: #333;
+    font-weight: 400;
+}
+/* 课程内容 开始*/
+.course-list ul {
+    overflow: hidden;
+    font-size: 14px;
+    width: 1236px;      /* 继承父盒子宽度，内容会掉下去，手动设置合适宽度，这种方式不好，但是原版采取的这种方式 */
+    margin-left: -16px;     /* 使盒子居中显示 */
+}
+.course-list ul li {
+    width: 220px;
+    border: 1px solid transparent;
+    padding: 7px 7px 10px;
+    margin-top: 10px;
+    margin-left: 9px;
+    position: relative;
+    float: left;
+}
+.course-list li .item-img-link {
+    display: block;
+    margin-bottom: 6px;
+}
+.course-list li img {
+    width: 220px;
+    height: 124px;
+}
+.course-list li h4 {
+    display: block;
+    height: 40px;
+    margin-bottom: 8px;
+}
+.course-list li div {
+    position: relative;
+}
+.course-list li span:nth-child(1) {
+    float: left;
+    color: #5fb41b;
+}
+.course-list li span:nth-child(2) {
+    float: right;
+    color: #999999;
+}
+.course-list .item-source-link:hover {
+    cursor: pointer;
+    color: #23b8ff;
+}
+/* 课程内容 结束*/
+/* 查看全部课程 开始*/
+.all-courses {
+    height: 70px;
+    line-height: 60px;
+    text-align: center;
+    border: 5px solid #f4f4f4;
+    border-radius: 1px;
+    margin: 55px auto;
+    box-sizing: border-box;     /* 使盒子不被撑开 */
+}
+.all-courses a {
+    font-size: 18px;
+    color: #333;
+}
+.all-courses a:hover {
+    color: #23b8ff;
+}
+/* 查看全部课程 结束*/
+/* 热门培训 开始 */
+.hot-topic h1 {
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    color: #333;
+    margin-bottom: 34px;
+}
+.hot-topic .tab .tab-bar {
+    border-bottom: 1px solid #eee;
+    overflow: hidden;       /* 清除浮动 */
+}
+.hot-topic .tab-bar li {
+    float: left;
+    font-size: 20px;
+    line-height: 44px;
+    margin-right: 115px;
+    cursor: pointer;
+}
+.hot-topic .tab-bar .tab-bar-active {
+    border-bottom: 4px solid #23b8ff;
+    color: #23b8ff;
+}
+.hot-topic .tab .tab-content {
+    /* background-color: pink; */
+    height: 72px;
+    padding: 20px 0;
+}
+.hot-topic .tab-content .tab-content-item {
+    height: 92px;
+    width: 100%;
+}
+.hot-topic .tab-content-item a {
+    float: left;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    padding: 6px 14px;
+    border-radius: 20px;
+    color: #333;
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+/* 热门培训 结束 */
+/* main end */
+/* footer start */
+footer {
+    background-color: #444546;
+    /* height: 100px; */
+}
+/* 合作链接开始 */
+.cooperation-link {
+    border-bottom: 1px solid #4A4B4C;
+    padding: 40px 0 20px;
+}
+.cooperation-link h3 {
+    font-size: 22px;
+    font-weight: 400;
+    color: #999;
+}
+.cooperation-link ul {
+    padding-top: 25px;
+    overflow: hidden;       /* 清除浮动 */
+}
+.cooperation-link ul li {
+    float: left;
+    padding: 0 40px 12px 0;
+}
+.cooperation-link ul a {
+    color: #999;
+    font-size: 14px;
+}
+.cooperation-link ul a:hover {
+    text-decoration: underline
+}
+/* 合作链接结束 */
+/* 版权声明开始 */
+.copyright {
+    height: 180px;
+    padding-top: 40px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.copyright i {
+    font-size: 40px;
+    color: gray;
+}
+.copyright p,.copyright a {
+    font-size: 12px;
+    color: #777;
+    line-height: 24px;
+}
+.copyright a:hover {
+    text-decoration: underline;
+}
+/* 版权声明结束 */
+/* footer end */

@@ -1,0 +1,61 @@
+{
+	"alphabet": [
+		"A",
+		"B",
+		"C",
+		"D",
+		"E",
+		"F",
+		"G",
+		"H",
+		"J",
+		"K",
+		"L",
+		"M",
+		"N",
+		"P",
+		"Q",
+		"R",
+		"S",
+		"T",
+		"W",
+		"X",
+		"Y",
+		"Z"
+	],
+	"cityList": [
+		{
+			"idx": "A",
+			"cities": [
+				{
+					"id": 1916,
+					"name": "阿坝县",
+					"pinyin": "aba",
+					"latitude": 32.904223,
+					"longitude": 101.700985
+				},
+				{
+					"id": 1405,
+					"name": "阿巴嘎旗",
+					"pinyin": "abagaqi",
+					"latitude": 44.022728,
+					"longitude": 114.970618
+				},
+				{
+					"id": 1905,
+					"name": "阿坝藏族羌族自治州",
+					"pinyin": "abazangzuqiangzuzizhizhou",
+					"latitude": 31.899792,
+					"longitude": 102.221374
+				},
+				{
+					"id": 1398,
+					"name": "阿尔山市",
+					"pinyin": "aershan",
+					"latitude": 47.177,
+					"longitude": 119.943656
+				}
+			]
+		}
+	]
+}

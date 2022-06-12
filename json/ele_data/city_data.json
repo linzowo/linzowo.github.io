@@ -1,0 +1,92 @@
+{
+	"A": {
+		"ABaXian": "阿坝县",
+		"ABaGaQi": "阿巴嘎旗"
+	},
+	"B": {
+		"BaChuXian": "巴楚县",
+		"BaDongXian": "巴东县"
+	},
+	"C": {
+		"CangNanXian": "苍南县",
+		"CangWuXian": "苍梧县",
+		"CangXiXian": "苍溪县"
+	},
+	"D": {
+		"DaAnShi": "大安市",
+		"DaChaiDanXingZhengWeiYuanHui": "大柴旦行政委员会",
+		"DaChangHuiZuZiZhiXian": "大厂回族自治县"
+	},
+	"E": {
+		"EBianYiZuZiZhiXian": "峨边彝族自治县",
+		"EErDuoSiShi": "鄂尔多斯市"
+	},
+	"F": {
+		"FaKuXian": "法库县",
+		"FanChangXian": "繁昌县"
+	},
+	"G": {
+		"GaErXian": "噶尔县",
+		"GaiZeXian": "改则县"
+	},
+	"H": {
+		"HaBaHeXian": "哈巴河县",
+		"HaErBinShi": "哈尔滨市"
+	},
+	"J": {
+		"JiaChaXian": "加查县",
+		"JiaHeXian": "嘉禾县"
+	},
+	"K": {
+		"KaiFengShi": "开封市",
+		"KaiHuaXian": "开化县"
+	},
+	"L": {
+		"LaiAnXian": "来安县",
+		"LaiBinShi": "来宾市"
+	},
+	"M": {
+		"MaAnShanShi": "马鞍山市",
+		"MaBianYiZuZiZhiXian": "马边彝族自治县"
+	},
+	"N": {
+		"NaiDongQu": "乃东区",
+		"NaiManQi": "奈曼旗"
+	},
+	"P": {
+		"PanAnXian": "磐安县",
+		"PanJinShi": "盘锦市"
+	},
+	"Q": {
+		"QianAnShi": "迁安市",
+		"QianAnXian": "乾安县"
+	},
+	"R": {
+		"RangTangXian": "壤塘县",
+		"RaoHeXian": "饶河县"
+	},
+	"S": {
+		"SaGaXian": "萨嘎县",
+		"SaJiaXian": "萨迦县"
+	},
+	"T": {
+		"TaChengShi": "塔城市",
+		"TaChengDiQu": "塔城地区"
+	},
+	"W": {
+		"WaFangDianShi": "瓦房店市",
+		"WanAnXian": "万安县"
+	},
+	"X": {
+		"XiaHeXian": "夏河县",
+		"XiaJiangXian": "峡江县"
+	},
+	"Y": {
+		"YaAnShi": "雅安市",
+		"YaDongXian": "亚东县"
+	},
+	"Z": {
+		"ZaDuoXian": "杂多县",
+		"ZanHuangXian": "赞皇县"
+	}
+}
