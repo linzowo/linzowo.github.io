@@ -1,0 +1,140 @@
+.pink {
+    background-color: pink;
+}
+
+// 顶部导航栏 S
+.header-area {
+    color: #000000;
+    padding-top: 20px;
+
+    .left-log {
+        padding: 20px;
+        padding-bottom: 0;
+        border-right: 1px solid #000000;
+
+        .zh-text {
+
+            /* 环校漫游安全档案 */
+            font-family: 'Abel';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 28px;
+
+
+            mix-blend-mode: normal;
+        }
+
+        .en-text {
+
+
+            font-family: 'Abel';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+
+
+        }
+
+    }
+
+    .scroll-text {
+        width: 100%;
+        // 文本自动滚动
+        overflow: hidden;
+        white-space: nowrap;
+        border-top: 2px solid #000000;
+        border-bottom: 2px solid #000000;
+
+
+        font-family: 'Abel';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        text-transform: uppercase;
+
+        color: #000000;
+        padding: 5px 0;
+
+        div {
+            animation: scroll 15s linear infinite;
+        }
+
+
+    }
+
+    .header-menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+
+        .item {
+
+            font-family: 'Abel';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+
+            color: #000000;
+
+            mix-blend-mode: normal;
+            margin: 0 20px;
+
+        }
+    }
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+// 顶部导航栏 E
+
+// 第一版 S
+.introduction {
+    // gird布局 每行两个 宽高各为50%
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 20px;
+    height: 80vh;
+
+    .tl {
+        display: flex;
+    }
+
+    .icon-box {
+        height: 150px;
+        width: 150px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        .transform-origin-center-center {
+            width: 100%;
+            height: 100%;
+            // 一直旋转
+            animation: rotate 10s linear infinite;
+        }
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+
+}
+
+// 第一版 E

@@ -1,0 +1,49 @@
+// 菜单样式
+
+.pc-sidebar {
+  width: 200px;
+  height: 400px;
+  position: fixed;
+  z-index: 99;
+  left: 20px;
+  top: 250px;
+  color: rgb(190, 14, 14);
+  font-family: var(--framer-font-family, Inter, Inter Placeholder, sans-serif);
+
+  .title {
+    font-style: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+
+    .icon {
+      width: 11px;
+      height: 11px;
+      margin-right: 10px;
+    }
+  }
+
+  .btn-item {
+    padding: 3px 10px;
+    border: rgb(190, 14, 14) solid 1px;
+    border-radius: 5px;
+    margin-left: 11px;
+    margin-bottom: 10px;
+
+    a {
+      color: rgb(190, 14, 14);
+      text-decoration: none;
+    }
+  }
+
+  .top {
+    position: absolute;
+    top: 0px;
+  }
+
+  .bottom {
+    position: absolute;
+    bottom: 0px;
+  }
+}
