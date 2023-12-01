@@ -1,0 +1,2 @@
+import{a as t}from"./chunk-QINP6LGH.mjs";function r(e,a){return{bodyClassName:"framer-body-ZqQajy01G",breakpoints:[{hash:"ypdiot"}],description:t(e,a).description,elements:{},title:t(e,a).title||"\u6C34\u5751\u9009\u62E93",viewport:"width=1700"}}var p=1,d={exports:{metadataVersion:{type:"variable",annotations:{framerContractVersion:"1"}},default:{type:"function",annotations:{framerContractVersion:"1"}},__FramerMetadata__:{type:"variable"}}};export{r as a,p as b,d as c};
+//# sourceMappingURL=chunk-ASO5C3UB.mjs.map
